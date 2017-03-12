@@ -1,3 +1,10 @@
+/*
+NEXT TO FIX
+→ be consistent about using REMs, EMs, or px for spacing
+→ make blue buttons have white text w/ lt gray hover?
+→ remove orange separator on headers
+*/
+
 body {
   /*padding-top: 0;*/
   margin-top: 0;
@@ -119,7 +126,7 @@ section {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 body, .article {
   font-family: 'Karla', sans-serif;
-  font-size: 2.1em;
+  font-size: 2.1rem;
   line-height: 2;
   color: #111111;
 }
@@ -128,18 +135,13 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
   letter-spacing: 0;
   line-height: 1.4;
-  margin-bottom: 3rem;
+  margin-bottom: 3rem ;
   text-align: center;
 }
 
 p, ul, ol, pre, table, blockquote {
   margin-top: 0;
   margin-bottom: 20px;
-}
-
-ul ul, ol ol, ul ol, ol ul {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 q {
